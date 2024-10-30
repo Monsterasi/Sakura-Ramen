@@ -1,0 +1,480 @@
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color: white;
+    scroll-behavior: smooth;
+    overflow-x: hidden;    
+}
+
+.aot {
+    background-image: url(./img/1_hero/JPG/hero_bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding: 0 160px;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 112px;
+}
+
+header img {
+    width: 64px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #9F0908;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+}
+
+.button img {
+    width: 24px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 96px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h2 {
+    color: #9F0908;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-bottom: 36px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.headline {
+    text-align: center;
+    margin-top: -12%;
+}
+
+.how-to-order {
+    padding: 120px 160px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.order {
+    color: black;
+    font-size: 56px;
+    font-family: 'Economica', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+}
+
+.order img {
+    width: 128px;
+    padding-bottom: 16px;
+}
+
+.our-menu {
+    background-image: url(./img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.ramen {
+    display: flex;
+    justify-content: start;
+    gap: 80px;
+    align-items: center;
+    padding: 28px 160px;
+}
+
+.ramen1 {
+    display: flex;
+    justify-content: end;
+    gap: 80px;
+    align-items: center;
+    padding: 28px 160px;
+}
+
+.ramen img {
+    width: 352px;
+    height: 352px;
+}
+
+.ramen1 img {
+    width: 352px;
+    height: 352px;
+}
+
+th {
+    color: black;
+    font-family: 'Economica', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+td {
+    color: #675E54;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+}
+
+
+
+
+
+.find-us {
+    color: #9F0908;
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.marker {
+    padding-top: 8px;
+    display: flex;
+    color: black;
+}
+
+.find-us img {
+    width: 24px;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+}
+
+footer {
+    background-color: #0A141E;
+    height: 144px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px;
+}
+
+.symbol {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.sakura-logo {
+    height: 44px;
+}
+
+.footer-symbol {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+@media(max-width: 1000px) {
+    .nav-link {
+        justify-content: center;
+        align-items: center;        
+        margin-left: unset;
+        font-size: 16px;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    header {
+        padding: 24px;
+    }
+
+    .headline {
+        margin-top: -50%;
+    }
+
+
+    .order-menu {
+       justify-content: space-around;
+           }
+
+
+    .how-to-order {
+        padding: 120px 0;
+    }
+
+    h2 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+        justify-content: space-around;
+    }
+
+    th {
+        font-size: 32px;
+    }
+
+    td {
+        font-size: 24px;
+    }
+
+    tr:nth-child(1) {
+        display: flex;
+
+    }
+
+    tr {
+        display: block;
+    }
+
+    .order {
+        font-size: 24px;
+    }
+
+      
+
+    .ramen img, 
+    .ramen1 img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .how-to-order {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .our-menu {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .ramen img,
+    .ramen1 img {
+        width: 250px;
+        height: 250px;
+    }
+
+
+    th,
+    td,
+    tr {
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;        
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .our-menu {        
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    th {
+        font-size: 32px;
+    }
+
+    td {
+        font-size: 24px;
+        font-weight: 650;
+    }
+
+    tr {
+        display: block;
+    }
+
+  
+
+
+}
+
+@media(max-width: 650px) {
+    header {
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+        padding-top: 16px;
+    }
+
+    .order img {
+        width: 64px;
+    }
+
+    .ramen, .ramen1 {
+        font-size: 24px;
+        gap: 16px;
+    }
+}
+
+@media(max-width: 500px) {
+    .find-us {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .headline {
+        padding: 40px;
+    }
+
+    h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .find-us img {
+        height: 16px;
+    }
+
+    .order-menu {
+        text-align: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .marker {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-menu {
+        flex-direction: column;
+        align-items: center;        
+    }
+
+    iframe {
+        height: 250px;
+    }
+
+    .sakura-logo {
+        height: 24px;
+    }
+
+    .footer-symbol {
+        height: 24px;
+        width: 24px;
+    }
+
+   
+
+    h2 {
+        padding: 20px
+    }
+
+    .ramen1 {
+        flex-direction: column-reverse;
+        font-size: 24px;
+        text-align: center;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+ .ramen {
+        font-size: 24px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .ramen img,
+    .ramen1 img {
+        width: 120px;
+        height: 120px;
+    }
+
+    td {
+        font-size: 16px;
+    }
+
+    th {
+        font-size: 24px;
+    }
+}
+
